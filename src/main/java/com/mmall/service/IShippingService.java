@@ -5,8 +5,9 @@ import com.mmall.common.ServerResponse;
 import com.mmall.pojo.Shipping;
 
 /**
- * Created by geely
- */
+ * Created by liyan
+ *
+ **/
 public interface IShippingService {
 
     ServerResponse add(Integer userId, Shipping shipping);
